@@ -270,6 +270,7 @@ html {
   justify-content: space-between;
   gap: 30px;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #about .about-content .image {
@@ -367,3 +368,15 @@ html {
   margin-left: 10px;
 }
 /* end contact */
+#footer {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+#footer span {
+  color: var(--main-color);
+  font-weight: bold;
+}
+/* end footer */
